@@ -8,7 +8,7 @@ const config = {
     host: process.env.HOST,
     database: process.env.DB_NAME,
   },
-  itemsPerPage: process.env.ITEMS_PER_PAGE || 10,
+  listPerPage: process.env.LIST_PER_PAGE || 10,
 };
 
 module.exports = config;
